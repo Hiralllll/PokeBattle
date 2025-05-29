@@ -1,0 +1,112 @@
+* {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#box {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-self: center; 
+    align-self: center; 
+    width: 1200px;
+    height: 610px;
+}
+
+#bg {
+    position: absolute;
+    height: 600px;
+    width: 1200px;
+}
+
+.hp {
+    position: absolute;
+    z-index: 1;
+    height: 120px;
+    width: 400px;
+    top: 180px;
+    transform: rotate(270deg);
+}
+
+#hpval1 {
+    right: 960px;
+}
+
+#hpval2 {
+    left: 960px;
+}
+
+.poke_img{
+        z-index: 1;
+    position: absolute;
+    max-height: 240px;
+    bottom: 220px;
+    width: 200px;
+}
+
+#mypokemon {
+    transform: scaleX(-1);
+    left: 240px;
+}
+
+#theirpokemon{
+    right: 240px;
+}
+
+.move {
+    width: 200px;
+    height: 40px;
+    border: 4px solid green;
+}
+
+.move_box {
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 410px;
+    gap: 10px;
+    position: absolute;
+    top: 450px;
+}
+
+#move_box_1 {
+    left: 80px;
+}
+
+#move_box_2 {
+    right: 80px;
+}
+
+.name{
+    font-size: 28px;
+    text-align: center;
+    z-index: 2;
+    top:40px;
+    position: absolute;
+    width: 300px;
+}
+
+#name1{
+    left: 180px;
+}
+
+#name2{
+    right: 180px;
+}
+
+#battle_log{
+    background-color: rgb(94, 26, 26);
+    z-index: 1;
+    position: absolute;
+    height: 52px;
+    width: 1200px;
+    bottom: 20px;
+}
+
+#log{
+    margin-top: 8px;
+    margin-left: 16px;
+    color: wheat;
+    font-size: 16px;
+}
